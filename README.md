@@ -20,6 +20,7 @@ make bonus
 
 # Clean build artifacts
 make clean && make fclean
+
 📖 Usage
 bash
 # Run push_swap with a list of numbers
@@ -39,6 +40,7 @@ ra
 pa
 sa
 pa
+
 📊 Algorithm & Complexity
 Size	Strategy	Max Operations
 2-3 elements	Direct sort	2-3
@@ -50,6 +52,7 @@ Cost Calculation : Evaluates movement cost for each element
 Greedy Selection : Always chooses the least expensive operation
 Operation Fusion : Uses rr and rrr to combine rotations
 Strategic Positioning : Places elements to minimize future movements
+
 🎓 Demonstrated Concepts
 ✅ Data structures (linked lists, stacks)
 ✅ Greedy algorithms & optimization
@@ -66,6 +69,7 @@ bash
 
 # Check number of operations
 ./push_swap 4 67 3 87 23 | wc -l
+
 📝 Included Utilities
 File	Function
 ft_atoi.c	String to int conversion with validation
@@ -84,6 +88,7 @@ Extensible Design : Easy to add new sorting strategies
  Benchmark comparison with other algorithms
  Support for very large inputs (memory optimization)
  Multi-threaded version
+
 📄 License
 This project is distributed under the MIT License.
 
